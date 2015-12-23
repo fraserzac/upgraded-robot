@@ -1,0 +1,145 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Sintony);
+
+body {
+	font-family: 'Sintony', sans-serif;
+}
+
+.hidden { display: none; }
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.col-sm-4 {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+
+#button {
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.navbar-brand {
+	text-align: left;
+	padding-left: 50px;
+    height: 60px;
+    background-color: white;
+    border: transparent;
+}
+
+.navbar-default {
+    background-color: solid white;
+}
+
+#fp_text {
+    background-color: light grey;
+    width: 40pc;
+	font-size: 18px;
+    margin-left: 12pc;
+    margin-top: 70px;
+    text-align: left;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#fp_image {
+    height: 300px;
+    width: 80pc;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 0px 10px 10px 10px;
+    border-bottom: 2px solid grey;
+    background-image: url(http://www.arcirrigationmn.com/wp-content/uploads/2014/02/green-grass-1024x640.jpg);
+}
+
+.line {
+    
+}
+
+.text_colour {
+    height: 380px;  
+    color: solid grey;
+
+}
+
+.navbar .navbar-inverse .navbar-bottom {
+    color: grey;
+}
+
+.body_div {
+    height: 300px;
+}
+
+.navbar-default .navbar-collapse {
+    background-color: white;
+    border: transparent;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
