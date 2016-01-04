@@ -3,30 +3,31 @@
 @import url(https://fonts.googleapis.com/css?family=Sintony);
 
 body {
-	font-family: 'Sintony', sans-serif;
+    font-family: 'Sintony', sans-serif;
 }
 
-.hidden { display: none; }
+.hidden { 
+    display: none; }
 
 .alert-error {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
 }
 
 .alert-alert {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
 }
 
 .alert-success {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
 }
 
 .col-sm-4 {
@@ -36,21 +37,25 @@ text-align: left;
 
 }
 .alert-notice {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
 }
 
 
-#button {
+.button {
 	margin-top: 20px;
-	border-radius: 5px;
+    border-radius: 0px 25px 25px 25px;
+    color: white;
+    height: 40px;
+    background-color: black;
+    border: 2px solid black;
 }
 
 .navbar-brand {
 	text-align: left;
-	padding-left: 50px;
+	padding-left: 220px;
     height: 60px;
     background-color: white;
     border: transparent;
@@ -60,12 +65,29 @@ text-align: left;
     background-color: solid white;
 }
 
-#fp_text {
+#fp_text_top {
     background-color: light grey;
     width: 40pc;
 	font-size: 18px;
     margin-left: 12pc;
     margin-top: 70px;
+    text-align: left;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.body_div {
+    margin-bottom: 60px;
+}
+
+#fp_text_mid {
+    background-color: light grey;
+    width: 40pc;
+    font-size: 18px;
+    margin-left: 12pc;
+    height: 150px;
     text-align: left;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
@@ -79,19 +101,34 @@ text-align: left;
     border: 1px solid grey;
     margin: 0 auto;
     margin-top: 50px;
-    border-radius: 0px 10px 10px 10px;
+    border-radius: 0px 25px 25px 25px;
     border-bottom: 2px solid grey;
-    background-image: url(http://www.arcirrigationmn.com/wp-content/uploads/2014/02/green-grass-1024x640.jpg);
+    background-size: cover;
+    background-image: url(http://i.imgur.com/w38IPnx.jpg);
+}
+
+.button {
+    margin-top: 220px;
+    margin-left: 80px;
+    border-radius: 5px;
 }
 
 .line {
     
 }
 
-.text_colour {
-    height: 380px;  
-    color: solid grey;
+.hr {
+    color: #c6cad2;
+    background: #c6cad2;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px;
+    height: 1px;
+}
 
+.text_colour {
+    height: 380px;
+    background-color: #f1f2f4;
 }
 
 .navbar .navbar-inverse .navbar-bottom {
